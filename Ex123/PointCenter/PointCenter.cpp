@@ -78,4 +78,5 @@ int main()
     if (coolNumbersCount > 1) {
         cout << "there are " << coolNumbersCount << " points" << endl;
     }
+    delete arr;
 }

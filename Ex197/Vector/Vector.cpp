@@ -44,4 +44,5 @@ int main()
     {
         cout << arr[i][0] << ", " << arr[i][1] << " length: " << sqrt(arr[i][0] * arr[i][0] + arr[i][1] * arr[i][1]) << endl;        
     }
+    delete arr;
 }

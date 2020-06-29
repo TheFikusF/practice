@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     srand(time(NULL));                   //введення змінних та функції srand для роботи рандому
-    int n, d, temp, error, coolNumbersCount = 0;
+    int n, d;
     cout << "please, enter number of cols and rows:" << endl;
     cin >> n >> d;
     int** arr = new int* [n];
@@ -35,4 +35,5 @@ int main()
         }
         cout << endl;
     }
+    delete arr;
 }

@@ -28,4 +28,5 @@ int main()
         i++;
     }
     cout <<"there are "<< luckycounter<<" lucky ticket(s)";         //вивід кількості щасливих квитків
+    delete arr;
 }
